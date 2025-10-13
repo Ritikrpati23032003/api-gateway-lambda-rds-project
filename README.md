@@ -1,5 +1,4 @@
 # api-gateway-lambda-rds-project
-AWS Serverless Web Application Documentation
 1. Overview
 This system uses a serverless architecture built with AWS services to host a dynamic web
 application.
@@ -52,4 +51,5 @@ Route 53: Maps domain names to CloudFront distribution.
 This architecture delivers a complete, scalable, and secure AWS-based serverless web application.
 It leverages RDS, Lambda, REST API Gateway, CloudFront, and Route 53 for seamless data flow
 from backend to frontend.
+
 
