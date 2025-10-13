@@ -18,7 +18,7 @@ Step 1 – User opens the application via Route 53 domain.
 Step 2 – CloudFront forwards the request to API Gateway (REST API).
 Step 3 – API Gateway triggers the Lambda function.
 Step 4 – Lambda connects securely to RDS (MySQL) using pymysql.
-Step 5 – Lambda executes SQL queries and returns a JSON response.
+Step 5 – Lambda executes SQL queries.
 Step 6 – API Gateway sends the response back via CloudFront to the user.
 4. Data Flow Summary
 1. User Browser – Sends a request (POST/GET)
@@ -31,7 +31,7 @@ Step 6 – API Gateway sends the response back via CloudFront to the user.
 5. Key Functional Roles
 Frontend: Sends requests using fetch() and displays results.
 API Gateway: Exposes Lambda via REST API endpoints.
-Lambda: Handles business logic and database connectivity.
+Lambda: Handles  logic and database connectivity.
 RDS: Stores persistent data within VPC.
 CloudFront: Accelerates content delivery worldwide.
 Route 53: Maps domain names to CloudFront distribution.
@@ -51,5 +51,6 @@ Route 53: Maps domain names to CloudFront distribution.
 This architecture delivers a complete, scalable, and secure AWS-based serverless web application.
 It leverages RDS, Lambda, REST API Gateway, CloudFront, and Route 53 for seamless data flow
 from backend to frontend.
+
 
 
