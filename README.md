@@ -54,3 +54,11 @@ from backend to frontend.
 
 
 
+## Create database and database table through ec2
+## cretae congiguration file
+## At lambda attach rds & connect also same vpc 
+## At sg level check 3306 port for rds enable
+
+
+
+
