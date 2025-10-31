@@ -58,7 +58,9 @@ from backend to frontend.
 ## cretae configuration file
 ## At lambda attach rds & connect also same vpc 
 ## At sg level check 3306 port for rds enable
-## creation of cloud first enable cors at api gateway
+## Attach cloud front with api gateway
+first enable cors at api gateway
+
 
 
 
